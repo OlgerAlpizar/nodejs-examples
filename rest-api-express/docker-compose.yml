@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: users_mongo_db
+    ports:
+      - "27017:27017"
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: olgerLabsUser
+      MONGO_INITDB_ROOT_PASSWORD: olgerLabsPass

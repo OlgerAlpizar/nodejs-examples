@@ -1,0 +1,66 @@
+2024-05-23 10:31:39 [31merror[39m: [31mEmail olger@test.com already exists - undefined. code: undefined[39m
+2024-05-23 10:32:22 [31merror[39m: [31mEmail olger@test.com already exists - undefined. code: undefined[39m
+2024-05-23 10:52:22 [31merror[39m: [31mEmail olger@test.com already exists - undefined. code: undefined[39m
+2024-05-23 10:55:26 [31merror[39m: [31mEmail olger@test.com already exists - . code: 400[39m
+2024-05-23 10:56:14 [31merror[39m: [31mUser validation failed: email: Please use a valid email address - . code: 400[39m
+2024-05-23 11:00:09 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: [{"type":"field","value":"","msg":"Invalid value","path":"firstName","location":"body"},{"type":"field","value":"","msg":"Invalid value","path":"lastName","location":"body"}]. code: 406[39m
+2024-05-23 11:02:28 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: [{"type":"field","value":"","msg":"Invalid value","path":"firstName","location":"body"},{"type":"field","value":"","msg":"Invalid value","path":"lastName","location":"body"}]. code: 406[39m
+2024-05-23 11:03:00 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: [object Object],[object Object]. code: 406[39m
+2024-05-23 11:05:05 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: Invalid value,Invalid value. code: 406[39m
+2024-05-23 11:06:10 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: [{"type":"field","value":"","msg":"Invalid value","path":"firstName","location":"body"},{"type":"field","value":"","msg":"Invalid value","path":"lastName","location":"body"}]. code: 406[39m
+2024-05-23 11:30:07 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: Invalid value,Invalid value. code: 406[39m
+2024-05-23 11:32:16 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: Invalid value,Invalid value. code: 406[39m
+2024-05-23 11:33:27 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: Invalid value,Invalid value. code: 406[39m
+2024-05-23 11:43:54 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: Invalid value,Invalid value. code: 406[39m
+2024-05-23 11:44:42 [31merror[39m: [31mEmail olger@test.com already exists - . code: 400[39m
+2024-05-23 11:46:50 [31merror[39m: [31mEmail olger@test.com already exists - . code: 400[39m
+2024-05-23 11:47:46 [31merror[39m: [31mEmail olger@test.com already exists - . code: 400[39m
+2024-05-23 11:53:35 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: Invalid value,Invalid value. code: 406[39m
+2024-05-23 11:56:54 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: Invalid value,Invalid value. code: 406[39m
+2024-05-23 12:03:47 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: Invalid value,Invalid value. code: 406[39m
+2024-05-23 12:04:17 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: Invalid firstName,Invalid value. code: 406[39m
+2024-05-23 12:18:03 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: [{"type":"field","value":"","msg":"Invalid value","path":"firstName","location":"body"},{"type":"field","value":"","msg":"Invalid value","path":"lastName","location":"body"}]. code: 406[39m
+2024-05-23 12:19:41 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: undefined. code: 406[39m
+2024-05-23 12:19:57 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: [object Object],[object Object]. code: 406[39m
+2024-05-23 12:20:27 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: undefined. code: 406[39m
+2024-05-23 12:20:51 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: [{"type":"field","value":"","msg":"Invalid value","path":"firstName","location":"body"},{"type":"field","value":"","msg":"Invalid value","path":"lastName","location":"body"}]. code: 406[39m
+2024-05-23 12:23:50 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: firstName,lastName. code: 406[39m
+2024-05-23 12:25:03 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: firstName -> Invalid value,lastName -> Invalid value. code: 406[39m
+2024-05-23 12:26:43 [31merror[39m: [31mError creating the user olger@test.com due request validations - Validation error: [firstName -> Invalid value],[lastName -> Invalid value]. code: 406[39m
+2024-05-23 12:27:21 [31merror[39m: [31mEmail olger@test.com already exists - . code: 400[39m
+2024-05-23 14:20:07 [31merror[39m: [31mError getting the user @fake  due request validations - Validation errors: [email|Invalid value]. code: 406[39m
+2024-05-23 14:20:38 [31merror[39m: [31mError getting the user olger  due request validations - Validation errors: [email|Invalid value]. code: 406[39m
+2024-05-23 14:22:01 [31merror[39m: [31mEmail olger@test1.com already exists - . code: 400[39m
+2024-05-23 14:32:51 [31merror[39m: [31mError getting the user 664fa57ed55cd28cc02b13f5  due request validations - Validation errors: [id|Invalid value]. code: 406[39m
+2024-05-23 14:38:41 [31merror[39m: [31mCast to ObjectId failed for value "664fa57ed55cd28cc02b13f56" (type string) at path "_id" for model "User" - . code: 400[39m
+2024-05-23 14:38:54 [31merror[39m: [31mEmail 664fa57ed55cd28cc02b13f6 does not exist - . code: 400[39m
+2024-05-23 14:38:56 [31merror[39m: [31mEmail 664fa57ed55cd28cc02b13f6 does not exist - . code: 400[39m
+2024-05-23 14:40:06 [31merror[39m: [31mEmail olger@test2.com already exists - . code: 400[39m
+2024-05-23 14:40:08 [31merror[39m: [31mEmail olger@test2.com already exists - . code: 400[39m
+2024-05-23 14:42:00 [31merror[39m: [31mError updating the user undefined  due request validations - Validation errors: [id|Invalid value],[email|Invalid value],[email|Invalid value],[firstName|Invalid value],[password|Invalid value],[lastName|Invalid value],[phone|Invalid value]. code: 406[39m
+2024-05-23 14:43:00 [31merror[39m: [31mError updating the user olgerupdated@test2.com  due request validations - Validation errors: [id|Invalid value]. code: 406[39m
+2024-05-23 14:51:30 [31merror[39m: [31mPlan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "olgerupdated@test2.com" } - . code: 400[39m
+2024-05-23 14:52:15 [31merror[39m: [31mPlan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "olgerupdated@test2.com" } - . code: 400[39m
+2024-05-23 14:54:06 [31merror[39m: [31mError removing the user 664fa57ed55cd28cc02b13f5  due request validations - Validation errors: [id|Invalid value],[id|Invalid value]. code: 406[39m
+2024-05-23 14:55:13 [31merror[39m: [31mError removing the user 664fa57ed55cd28cc02b13f5  due request validations - Validation errors: [id|Invalid value],[id|Invalid value]. code: 406[39m
+2024-05-23 14:57:02 [31merror[39m: [31m[{"type":"field","msg":"Invalid value","path":"id","location":"body"},{"type":"field","msg":"Invalid value","path":"id","location":"body"}][39m
+2024-05-23 14:57:02 [31merror[39m: [31mError removing the user 664fa57ed55cd28cc02b13f5  due request validations - Validation errors: [id|Invalid value],[id|Invalid value]. code: 406[39m
+2024-05-23 14:59:41 [31merror[39m: [31mEmail 664fa57ed55cd28cc02b13f5 does not exist - . code: 400[39m
+2024-05-23 15:00:20 [31merror[39m: [31mUser 664fa57ed55cd28cc02b13f5 does not exist - . code: 400[39m
+2024-05-23 15:00:33 [31merror[39m: [31mUser 664fa57ed55cd28cc02b13f5 does not exist - . code: 400[39m
+2024-05-23 15:01:26 [31merror[39m: [31mUser 664fa57ed55cd28cc02b13f5 does not exist - . code: 400[39m
+2024-05-23 15:01:33 [31merror[39m: [31mUser 664fa564d55cd28cc02b13ef does not exist - . code: 400[39m
+2024-05-23 16:53:52 [31merror[39m: [31mEmail ivan@test.com already exists - . code: 400[39m
+2024-05-23 16:55:30 [31merror[39m: [31mCast to ObjectId failed for value "search" (type string) at path "_id" for model "User" - . code: 400[39m
+2024-05-23 16:55:56 [31merror[39m: [31mCast to ObjectId failed for value "search" (type string) at path "_id" for model "User" - . code: 400[39m
+2024-05-23 16:56:05 [31merror[39m: [31mCast to ObjectId failed for value "search" (type string) at path "_id" for model "User" - . code: 400[39m
+2024-05-23 16:56:48 [31merror[39m: [31mCast to ObjectId failed for value "search" (type string) at path "_id" for model "User" - . code: 400[39m
+2024-05-23 16:57:55 [31merror[39m: [31mCast to ObjectId failed for value "search" (type string) at path "_id" for model "User" - . code: 400[39m
+2024-05-23 16:58:58 [31merror[39m: [31mCast to ObjectId failed for value "search" (type string) at path "_id" for model "User" - . code: 400[39m
+2024-05-23 17:00:04 [31merror[39m: [31mCast to ObjectId failed for value "search" (type string) at path "_id" for model "User" - . code: 400[39m
+2024-05-23 17:31:08 [31merror[39m: [31mUnexpected token '}', ..."Number": [39m
+[31m}" is not valid JSON - undefined. code: undefined[39m
+2024-05-23 18:05:16 [31merror[39m: [31mEmail ana@test.com already exists - . code: 400[39m
+2024-05-30 16:51:20 [31merror[39m: [31mExpected double-quoted property name in JSON at position 66 - undefined. code: undefined[39m
+2024-05-30 16:51:25 [31merror[39m: [31mExpected double-quoted property name in JSON at position 66 - undefined. code: undefined[39m
+2024-05-30 19:46:39 [31merror[39m: [31mCannot read properties of undefined (reading 'length') - . code: 400[39m
