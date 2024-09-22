@@ -1,0 +1,56 @@
+services:
+  mongodb:
+    image: mongo:6.0
+    container_name: grapghql_api_apollo_server4_express_mongo
+    ports:
+      - '27017:27017'
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: olgerLabsUser
+      MONGO_INITDB_ROOT_PASSWORD: olgerLabsPass
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - grapghql_api_apollo_server4_express_mongo_network
+    healthcheck:
+      test: ["CMD", "mongo", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  app:
+    build: .
+    container_name: grapghql_api_apollo_server4_express_app
+    command: npm start
+    environment:
+      MONGO_URI: mongodb://olgerLabsUser:olgerLabsPass@mongodb:27017/graphql?authSource=admin
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    volumes:
+      - .:/usr/src/app
+    networks:
+      - grapghql_api_apollo_server4_express_mongo_network
+
+  init-db:
+    build: .
+    container_name: grapghql_api_apollo_server4_express_init_db
+    command: sh -c "until mongo --eval 'db.stats()' --host mongodb:27017; do echo waiting for mongodb; sleep 2; done && npx ts-node /usr/src/app/scripts/init-db.ts"
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    environment:
+      MONGO_URI: mongodb://olgerLabsUser:olgerLabsPass@mongodb:27017/graphql?authSource=admin
+    volumes:
+      - .:/usr/src/app
+    networks:
+      - grapghql_api_apollo_server4_express_mongo_network
+
+volumes:
+  mongo_data:
+    driver: local
+
+networks:
+  grapghql_api_apollo_server4_express_mongo_network:
+    driver: bridge
